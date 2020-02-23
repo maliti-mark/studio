@@ -1,0 +1,58 @@
+.background_image{
+  height: 700px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/backgrounds/lit.jpg');
+}
+.logo{
+  position: -ms-page;
+  
+}
+
+.background_image2{
+  height: 1000px;
+  background-position: center;
+  background-size: initial;
+  background-image: url('../images/backgrounds/s_image.jpg');
+  background-repeat: no-repeat;
+}
+.background_image3{
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/backgrounds/c_image.jpg')
+}
+#close{
+  text-align: center;
+}
+#close-date{
+  text-align: center;
+}
+.images{
+  align-items: center;
+}
+.welcome{
+  text-align: center;
+  padding-top: 310px;
+  box-sizing: 300PX;
+}
+.studio{
+  text-align: center;
+  padding-top: 35px;
+}
+.p1{
+  text-align: center;
+  text-decoration: whitesmoke;
+  text-color:white;
+}
+.imagess{
+  align-content: center;
+  ruby-align: center;
+}
+.contact{
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: blanchedalmond;
+}
