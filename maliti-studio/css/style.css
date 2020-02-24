@@ -1,13 +1,15 @@
 .background_image{
-  height: 700px;
+  height: 600px;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/backgrounds/lit.jpg');
 }
-.logo{
+#start {
+  text-align: center;
   position: relative;
+  top: 200px;
   
 }
 
@@ -22,6 +24,7 @@
   height: 800px;
   background-position: center;
   background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));;
   background-image: url('../images/backgrounds/c_image.jpg')
 }
 #close{
@@ -92,4 +95,14 @@
 }
 #products {
   display: none;
+}
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+.form-horizontal{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/c_image.jpg) no-repeat center center fixed;
+}
+#form {
+  padding: 100px;
+}
+.form-control {
+  background: transparent;
 }
