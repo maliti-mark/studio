@@ -3,20 +3,23 @@
 
   <head>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <script src="script.js"></script>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script
   <title>maliti studio</title>
   </head>
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <body>
     <div id="welcome" class="container-fluid">
      <div class= "row background_image">
-       <div class="col-md-12">
+       <div id="start" class="col-md-12">
 
-         <div class="logo" img src="images/logo/logo.png" alt="logo">"</div>
-         <div class="welcome"><strong>WELCOME</strong></div>
-         <div class="studio"><strong>TO DELANI STUDIO</strong></div>
-         <div class="p1">AMAZING PEOPLE ARE MAKINGDESIGNS IN A FUN ENVIRONMENT</div>
-        </div>
+        <img src="/images/logo/logo.png">
+       <p> <strong>WELCOME</strong></p>
+         <P><strong>TO DELANI STUDIO</strong><br>
+        AMAZING PEOPLE ARE MAKINGDESIGNS IN A FUN ENVIRONMENT</P>
+          <img src="/images/mouse_click.png"
+      </div>
      </div>
    </div>
     <div class="container">
@@ -47,9 +50,9 @@
     <div class="container">
             <h2 id="pos" class="text-center pt-4 ">WHAT WE DO</h2>
             <div class="row">
-            <div id="designs" class="design col-md-3 text-center pt-4">
-            <div class="icon1">
-            <img id="img" class="img-fluid" src="/images/services_icons/design_icon.png" alt="Design icon">
+            <div class="design col-md-3 text-center pt-4">
+            <div>
+            <img id="img1" class="img-fluid" src="images/services_icons/design_icon.png" alt="Design icon">
             <h3>DESIGN</h3>
             </div>
             <div id="design">
@@ -65,7 +68,7 @@
             </div>
     <div id="dev" class="development col-md-4 text-center pt-4">
     <div id="icon2">
-    <img id="img2" class="img-fluid" src="/images/services_icons/dev_icon.png" alt="Dev_icon">
+    <img id="img2" class="img-fluid" src="images/services_icons/dev_icon.png" alt="Dev_icon">
     <h3>DEVELOPMENT</h3>
     </div>
     <div id="development">
@@ -80,10 +83,10 @@
     </div>
     <div id="pro" class="product management col-md-5 text-center pt-4">
     <div id="icon3">
-    <img id="img3" class="img-fluid" src="/images/services_icons/product_icon.png" alt="product_icon">
+    <img id="img3" class="img-fluid" src="images/services_icons/product_icon.png" alt="product_icon">
     <h3>PRODUCT MANAGEMENT</h3>
     </div>
-    <div id="Products">
+    <div id="products">
     <h4>Product Management</h4>
     <p>
     Planning and development is iterative. Because we are constantly
@@ -110,6 +113,8 @@
           <div class="box col-md-3">
               <img src="images/portfolio/work1.jpg">
           </div>
+        </div>
+        <div class="row no-gutters">
           <div class="box col-md-3">
               <img src="images/portfolio/work5.jpg">
           </div>
@@ -122,25 +127,26 @@
           <div class="box col-md-3">
               <img src="images/portfolio/work8.jpg">
           </div>
-      </div>
+        </div>
   </div>
           
 
-        <div class="row background_image3"> 
+        <div class="row pt-8 background_image3"> 
           <div class=" container-fluid text-white text-center" id="form">
-            <h1>Contat us</h1>
-            <form action="#" class="form-horizontal">
-                <div class="form-group row">
-                    <input type="text" class="form-control m-2 col-sm-5" placeholder="your name...">
-                    <input type="text" class="form-control m-2 col-sm-5" placeholder="email address...">
+            <h1>Contact us</h1>
+            <form action="https://gmail.us4.list-manage.com/subscribe/post?u=613ccfb15ec2c2a0339c0dfc1&amp;id=aba50f1cb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>                <div class="form-group row">
+                    <input type="text" class="form-control m-2 col-sm-5" placeholder="your name..." name="FNAME">
+                    <input type="text" class="form-control m-2 col-sm-5" placeholder="email address..." name="EMAIL">
                 </div>
                 <div class="form-group">
-                    <textarea name="" id="" rows="6" placeholder="put text here..." class="form-control col-sm-11" ></textarea>
-                </div>
+                    <textarea name="" id="" rows="6" placeholder="put text here..." class="form-control col-sm-11" name="MMERGE3" ></textarea>
+                <button type="submit" class="btn" onclick="submit">submit</button>
+
             </form>
         </div>
 
         </div>
+    </div>
 
 
     <div class="container">
@@ -161,4 +167,7 @@
   </div>
 
   </body>
+  <script src="script.js"></script>
+  <script src="jquery.js"></script>
+
 </html>
