@@ -1,0 +1,133 @@
+#background1 {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+   position: relative; 
+
+}
+.parag {
+    text-align: center;
+    color: aliceblue; 
+    position: relative;
+    
+}
+#text {
+    text-align: center;
+    font-size: small;
+    color: aliceblue; 
+    position: relative;
+    top: 250px;
+}
+.mouse {
+    text-align: center;
+    position: relative;
+    top: 450px;
+    }
+    #title {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .about-us {
+        text-align: center;
+        font-weight: bold;
+        
+    }
+#service {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+.paraparagraph2 {
+    text-align: center;
+    color: azure;
+    position: relative;
+    top: 100px;
+}
+#position {
+    position: relative;
+    right: 80px;
+}
+.class {
+    position: relative;
+    top: 50px;
+}
+#designs {
+    position: relative;
+    left: -200px;
+}
+#development {
+    position: relative;
+    right: -10px;
+}
+#product {
+    position: relative;
+    right: -200px;
+}
+#design {
+    display: none;
+}
+
+#develop {
+    display: none;
+}
+#Products {
+    display: none;
+}
+#folio {
+     font-family: serif;
+    font-weight: bold;
+}
+.contact {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+   position: relative; 
+   border-top: 10px;
+   margin-top: 30px;
+   color: beige;
+   align-content: center;
+
+}
+*#formInput {
+
+width: 100%;
+color: white;
+
+}
+#Text {
+    opacity: 12%; 
+    width: 48%;
+    position: relative;
+    left: 400px;
+    border-style: ridge;
+}
+#submit {
+    width: 48%;
+    position: relative;
+    left: 400px;
+}
+#footer {
+    text-align: center;
+    padding-top: 6px;
+}
+.display {
+    display:none;
+    position: absolute;
+    top: 0;width: 100%;height: 100%;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+  }
+  .display p{
+    border: 1px solid #fff;
+    height: 20%;width: 30%;
+    display: flex; justify-content: center;
+    align-items: center; color: #fff;
+    font-size: large;
+    background: rgba(0,0,0,.3);
+  }
